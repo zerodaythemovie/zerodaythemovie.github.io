@@ -1,0 +1,181 @@
+* {border: 0;
+}
+
+body {
+    background: midnightblue;
+    width: 930px;
+    margin: auto auto;
+    font-family: 'Arial';
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: left;
+    color: white;
+}
+
+#top {
+    width: 100%;
+    height: 1px;
+}
+#header {
+    background: black;
+    background-image: url("/img/zdtmbanner.png");
+    width: 600px;
+    height: 129px;
+    margin: auto auto;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.nav {
+    background: none;
+    width: 675px;
+    height: 40px;
+    margin: auto;
+}
+.button {
+    float: left;
+    background: none;
+    width: 90px;
+    height: 100%;
+    margin-bottom: 15px;
+    padding: 0px 11.2px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.b1 {
+    background-image: url("/img/nav/aboutw_off.gif");
+}
+.b1:hover {
+    background-image: url("/img/nav/aboutw_on.gif");
+}
+.b2 {
+    background-image: url("/img/nav/about_off.gif");
+}
+.b2:hover {
+    background-image: url("/img/nav/about_on.gif");
+}
+.b3 {
+    background-image: url("/img/nav/archive_off.gif");
+}
+.b3:hover {
+    background-image: url("/img/nav/archive_on.gif");
+}
+.b4 {
+    background-image: url("/img/nav/rec_off.gif");
+}
+.b4:hover {
+    background-image: url("/img/nav/rec_on.gif");
+}
+.b5 {
+    background-image: url("/img/nav/diss_off.gif");
+}
+.b5:hover {
+    background-image: url("/img/nav/diss_on.gif");
+}
+.b6 {
+    background-image: url("/img/nav/webm_off.gif");
+}
+.b6:hover {
+    background-image: url("/img/nav/webm_on.gif");
+}
+
+.middle {
+    width: 890px;
+    height: 650px;
+    margin-bottom: 20px;
+}
+#left {
+    float: left;
+    width: 250px;
+    margin-left: -25px;
+}
+#left img {
+    width: 100%;
+    height: 188px;
+}
+#right {
+    float: right;
+    width: 67%;
+}
+#right a {
+    color: white;
+    text-decoration: 1px #ffffff50 underline;
+    font-weight: normal;
+}
+#right a:hover {
+    color: red;
+    text-decoration: 1px #ff000050 underline;
+}
+
+.middle2 {
+    width: 890px;
+    height: auto;
+    margin-bottom: 0px;
+    text-align-last: center;
+}
+
+.bbut {
+    background-image: url("/img/nav/backtt_off.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 40px;
+    margin: auto;
+    margin-top: -10px;
+    padding: 0px 11.2px;
+}
+.bbut:hover {
+    background-image: url("/img/nav/backtt_on.gif");
+}
+
+.footer {
+    width: 1180px;
+    height: 50px;
+    margin: 0px -125px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-family: serif;
+}
+.footL {
+    float: left;
+}
+.footM {
+    float: left;
+    margin-left: 304px;
+    padding-top: 34px;
+}
+.footR {
+    float: right;
+    text-align-last: right;
+}
+
+h2 {
+    text-align-last: center;
+}
+h3 {
+    text-align: center;
+    text-align-last: center;
+    text-transform: uppercase;
+}
+a {
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: red;
+}
+hr {
+    border-top: 1px solid #ffffff30;
+    margin: auto -13px;
+}
+
+.L {
+    float: left;
+}
+.R {
+    float: right;
+    text-align-last: right;
+}
